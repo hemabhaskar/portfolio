@@ -1,7 +1,7 @@
 ---
 title: Data analysis using SQL
 layout: post
-post-image: "https://raw.githubusercontent.com/Hemastays/portfolio/gh-pages/assets/images/us_map.png"
+post-image: "https://raw.githubusercontent.com/hemabhaskar/portfolio/gh-pages/assets/images/us_map.png"
 description: Data analysis using SQL
 tags:
 - jekyll

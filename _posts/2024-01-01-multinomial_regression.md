@@ -1,7 +1,7 @@
 ---
 title: Multinomial Logical Regression Model using Python
 layout: post
-post-image: "https://raw.githubusercontent.com/Hemastays/portfolio/gh-pages/assets/images/Confusion_matrix.png"
+post-image: "https://raw.githubusercontent.com/hemabhaskar/portfolio/gh-pages/assets/images/Confusion_matrix.png"
 description: Multinomial Logical Regression Model using Python
 tags:
 - jekyll
