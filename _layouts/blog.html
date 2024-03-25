@@ -12,15 +12,12 @@ layout: compress
 
     <section class="hero is-fullheight" id="blog">
         <div class="hero-body">
-            <div class="container">
-                {% include blogpage-heading.html %}
-            </div>
+            <div class="columns  is-centered is-multiline is-mobile">
+             <!--Blog Cards Section-->
+             {% for post in site.posts %}
+               {% include blog-card.html %}
+             {% endfor %}
         </div>
-        <div id="results-container"></div>
-        <!--Blog Cards Section-->
-        {% for post in site.posts %}
-            {% include blog-card.html %}
-        {% endfor %}
         </div>
     </section>
     <br>
