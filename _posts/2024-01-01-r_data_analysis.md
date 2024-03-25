@@ -31,6 +31,8 @@ In the hierarchical clustering analysis focusing on the average death rate by st
 
 To enhance interpretability, the dendrogram was segmented into six distinct clusters, each representing a cohesive group of states sharing similar death rate patterns. Adding a rectangular box to demarcate these clusters provided a clear visual guide for cluster identification. Notably, the analysis highlighted Kentucky as a state with the highest death rates, aligning it with the characteristics of cluster 6. This detailed hierarchical clustering approach not only unraveled the inherent structure within the death rate data but also offered a nuanced perspective on state-wise variations, showcasing the potential for targeted interventions and healthcare resource allocation.
 
+<image src="https://raw.githubusercontent.com/hemabhaskar/portfolio/gh-pages/assets/images/process_map.gif" width="480" height="259" frameborder="0" class="giphy-embed" allowfullscreen=""></image>
+
 ### Key Variables Analyzed
 
 * Health Indicators
