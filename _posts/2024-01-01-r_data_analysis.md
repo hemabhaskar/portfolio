@@ -11,7 +11,7 @@ tags:
 
 In the Comprehensive Health Data Analysis project for the American Health Association, spearheaded an exhaustive examination of a multifaceted dataset incorporating socio-economic, demographic, and health-related variables at the county level in the United States. By meticulously mapping the data analysis process and conducting Tidy Sanity Checks, have ensured the reliability of subsequent analysis. Thorough data cleaning, inclusive of handling duplicates and outliers, set the stage for a robust exploration of key variables through hierarchical cluster analysis. This method unveiled intricate patterns, shedding light on the socio-economic and health-related determinants influencing cancer incidence and mortality rates. The analysis underscored the pivotal role of factors such as average annual cancer counts, deaths, and socio-economic landscapes in shaping health outcomes. The project's insights have far-reaching implications for targeted cancer prevention and management strategies. My next steps involve proposing data-driven strategies for the American Health Association and delving into predictive modeling to anticipate future cancer trends. This project exemplifies my adeptness in deriving actionable insights, offering valuable contributions to public health initiatives.
 {:target="blank"}
-###### Source Code : [`Jekyll Docs`](https://jekyllrb.com/docs/)
+###### Source Code : [`Cancer_analysis.r`](https://github.com/hemabhaskar/Project/blob/main/Cancer_analysis.r)
 
 ## Key Steps and Analyses
 

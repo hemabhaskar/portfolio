@@ -1,63 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-03-29T22:45:29-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hemalatha Bhaskar</title><subtitle>Data Analyst Portfolio</subtitle><entry><title type="html">Immigration Dashboard - Tableau</title><link href="http://localhost:4000/project/Sankey-dashboard" rel="alternate" type="text/html" title="Immigration Dashboard - Tableau" /><published>2024-03-02T00:00:00-05:00</published><updated>2024-03-02T00:00:00-05:00</updated><id>http://localhost:4000/project/Sankey-dashboard</id><content type="html" xml:base="http://localhost:4000/project/Sankey-dashboard"><![CDATA[<hr />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-03-30T00:44:58-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hemalatha Bhaskar</title><subtitle>Data Analyst Portfolio</subtitle><entry><title type="html">Immigration Dashboard - Tableau</title><link href="http://localhost:4000/project/Sankey-dashboard" rel="alternate" type="text/html" title="Immigration Dashboard - Tableau" /><published>2024-03-02T00:00:00-05:00</published><updated>2024-03-02T00:00:00-05:00</updated><id>http://localhost:4000/project/Sankey-dashboard</id><content type="html" xml:base="http://localhost:4000/project/Sankey-dashboard"><![CDATA[<hr />
 
 <p>This HR Analytics Dashboard project involved meticulous data preparation, advanced modeling using Power BI, and insightful data analysis through DAX functions. The resulting visualizations brought to light key trends, such as a demographic concentration in the 30s and 40s, attrition concerns in specific departments, and the prominence of the Production department. The dashboard also revealed salary dynamics and job satisfaction insights, emphasizing the contentment of “Product Technician I.” Recommendations include strategies for attrition mitigation, recruitment enhancement, and tailored department-specific interventions. With a clear focus on geographical talent management, the project underscores the importance of optimizing the salary structure and positions itself as a valuable tool for informed HR decision-making and continuous optimization.</p>
 
-<h6 target="blank" id="source-code--jekyll-docs">Source Code : <a href="https://jekyllrb.com/docs/"><code class="language-plaintext highlighter-rouge">Jekyll Docs</code></a></h6>
+<h6 target="blank" id="source-code--sankey_dashboardtwbx">Source Code : <a href="https://github.com/hemabhaskar/Project/blob/main/Sankey_Dashboard.twbx"><code class="language-plaintext highlighter-rouge">Sankey_Dashboard.twbx</code></a></h6>
+<h6 id="tableau-live--sankey_dashboard_live">Tableau Live : <a href="https://public.tableau.com/app/profile/hemalatha.bhaskar/viz/SankeyDashboard_17117628102310/SankeyDashboard"><code class="language-plaintext highlighter-rouge">Sankey_Dashboard_Live</code></a></h6>
 
-<h3 id="process-involved">Process involved</h3>
+<p><br /></p>
 
-<p>1️. Data Preparation: Ensured the data was clean, organized, and ready for analysis.<br />
-2️. Data Modeling: Structured the data for effective analysis using Power BI.<br />
-3️. Data Analysis (DAX): Leveraged DAX functions to dig deep into the numbers.<br />
-4️. Data Visualization (Dashboard): Created visually compelling dashboards to make complex data easily understandable.<br />
-5️. Insights: Unearthed some fascinating findings!</p>
+<h4 id="summary">Summary</h4>
 
-<h3 id="insights">Insights</h3>
-<h4 id="employee-demographics-analysis">Employee Demographics Analysis</h4>
-<p>Employee distribution indicates a concentration in the 30s and 40s age groups.
-Female employees dominate the 30s, while male employees prevail in the 40s.</p>
+<p>In my Tableau project, utilizing immigration data from Kaggle spanning 2004 to 2013, I constructed a Sankey dashboard illustrating migration patterns to Canada. The visualization showcases the flow of immigrants from various countries over the years, with a focus on the top five countries: China, India, Pakistan, the Philippines, and the United Kingdom.</p>
 
-<h4 id="attrition-and-recruitment-trends">Attrition and Recruitment Trends</h4>
-<p>Attrition rate calculated; a potential concern, especially in specific departments.Recruitment channels evaluated, with insights into the most effective sources.</p>
+<p>The project began with the creation of a union with an exact copy of the original data. Calculated fields were then developed to facilitate the construction of the Sankey chart.</p>
 
-<h4 id="department-specific-observations">Department-specific Observations</h4>
-<p>Production department stands out with the highest employee count
-Attrition rates vary across departments, with Production showing notable figures.</p>
+<h4 id="developed-calculated-fields">Developed calculated fields</h4>
+<p>“ToPad” to create values 1 and 49 for filling gaps.
+Implemented binning to bridge the gap between the created values.
+Introduced a new variable “T” to facilitate the spread of Sankey marks.
+Computed running sums of immigrants divided by the total number for the start and end of the Sankey chart.
+Derived a Sigmoid curve to define the curve of the Sankey chart noodles.</p>
 
-<h4 id="salary-and-satisfaction-dynamics">Salary and Satisfaction Dynamics</h4>
-<p>Average salary visualized, revealing insights into the company’s overall compensation structure.
-Job satisfaction ratings explored, with “Product Technician I” emerging as the most satisfied position.</p>
+<p>Building the visualization involved utilizing two dimensions, Countries and Year, to create the Sankey chart. Finally, all sheets were integrated to display the flow of immigrants from countries to years, also providing insights into the percentage of total immigrants from 2004 to 2013.</p>
 
-<h4 id="geographical-employee-distribution">Geographical Employee Distribution</h4>
-<p>Employee distribution across states visualized, highlighting State MA as having the highest number of employees.</p>
-
-<h3 id="recommendations">Recommendations</h3>
-<h4 id="attrition-mitigation">Attrition Mitigation</h4>
-<p>Focus on retention strategies, especially in high-attrition departments.
-Consider personalized incentives for employees in critical roles.</p>
-
-<h4 id="recruitment-enhancement">Recruitment Enhancement</h4>
-<p>Strengthen recruitment from successful channels.
-Leverage insights to refine recruitment strategies for specific departments.</p>
-
-<h4 id="department-specific-strategies">Department-specific Strategies</h4>
-<p>Address factors contributing to attrition in the Production department.
-Investigate job satisfaction drivers for Product Technician I to replicate success in other roles.</p>
-
-<h4 id="geographical-talent-management">Geographical Talent Management</h4>
-<p>Explore reasons behind the concentration of employees in State MA.
-Consider tailoring HR strategies based on regional employee dynamics.</p>
-
-<h4 id="salary-structure-optimization">Salary Structure Optimization</h4>
-<p>Evaluate the salary structure against industry benchmarks.
-Introduce targeted adjustments to address potential disparities.</p>
-
-<h3 id="inferences-and-takeaways">Inferences and Takeaways</h3>
-<p>The HR Management Dashboard provides a nuanced understanding of employee dynamics, allowing for strategic interventions. Identified trends and patterns pave the way for targeted HR initiatives to enhance employee satisfaction, mitigate attrition, and optimize recruitment strategies.</p>]]></content><author><name></name></author><category term="sample" /><category term="post" /><category term="test" /><summary type="html"><![CDATA[Transformed raw HR data from the Human Resources Dataset on Kaggle into a comprehensive HR Management Dashboard using Power BI. This project involved data cleaning, visualization creation, and deriving meaningful insights to empower HR decision-makers.]]></summary></entry><entry><title type="html">HR Dashboard - PowerBI</title><link href="http://localhost:4000/project/hr-dashboard-copy" rel="alternate" type="text/html" title="HR Dashboard - PowerBI" /><published>2024-03-01T00:00:00-05:00</published><updated>2024-03-01T00:00:00-05:00</updated><id>http://localhost:4000/project/hr-dashboard%20copy</id><content type="html" xml:base="http://localhost:4000/project/hr-dashboard-copy"><![CDATA[<hr />
+<h4 id="overall-findings">Overall Findings</h4>
+<p>The visualization highlights a notable trend: the percentage of total immigrants to Canada has been consistently increasing across the years. Notably, China emerges as the leading contributor, consistently supplying the largest number of immigrants to Canada throughout the analyzed period.</p>]]></content><author><name></name></author><category term="sample" /><category term="post" /><category term="test" /><summary type="html"><![CDATA[Transformed raw HR data from the Human Resources Dataset on Kaggle into a comprehensive HR Management Dashboard using Power BI. This project involved data cleaning, visualization creation, and deriving meaningful insights to empower HR decision-makers.]]></summary></entry><entry><title type="html">HR Dashboard - PowerBI</title><link href="http://localhost:4000/project/hr-dashboard-copy" rel="alternate" type="text/html" title="HR Dashboard - PowerBI" /><published>2024-03-01T00:00:00-05:00</published><updated>2024-03-01T00:00:00-05:00</updated><id>http://localhost:4000/project/hr-dashboard%20copy</id><content type="html" xml:base="http://localhost:4000/project/hr-dashboard-copy"><![CDATA[<hr />
 
 <p>This HR Analytics Dashboard project involved meticulous data preparation, advanced modeling using Power BI, and insightful data analysis through DAX functions. The resulting visualizations brought to light key trends, such as a demographic concentration in the 30s and 40s, attrition concerns in specific departments, and the prominence of the Production department. The dashboard also revealed salary dynamics and job satisfaction insights, emphasizing the contentment of “Product Technician I.” Recommendations include strategies for attrition mitigation, recruitment enhancement, and tailored department-specific interventions. With a clear focus on geographical talent management, the project underscores the importance of optimizing the salary structure and positions itself as a valuable tool for informed HR decision-making and continuous optimization.</p>
 
-<h6 target="blank" id="source-code--jekyll-docs">Source Code : <a href="https://jekyllrb.com/docs/"><code class="language-plaintext highlighter-rouge">Jekyll Docs</code></a></h6>
+<h6 target="blank" id="source-code--hr_analytics-dashboardpbix">Source Code : <a href="https://github.com/hemabhaskar/Project/blob/main/HR_Analytics%20dashboard.pbix"><code class="language-plaintext highlighter-rouge">HR_Analytics dashboard.pbix</code></a></h6>
 
 <h3 id="process-involved">Process involved</h3>
 
@@ -109,7 +79,7 @@ Introduce targeted adjustments to address potential disparities.</p>
 
 <h3 id="inferences-and-takeaways">Inferences and Takeaways</h3>
 <p>The HR Management Dashboard provides a nuanced understanding of employee dynamics, allowing for strategic interventions. Identified trends and patterns pave the way for targeted HR initiatives to enhance employee satisfaction, mitigate attrition, and optimize recruitment strategies.</p>]]></content><author><name></name></author><category term="sample" /><category term="post" /><category term="test" /><summary type="html"><![CDATA[Transformed raw HR data from the Human Resources Dataset on Kaggle into a comprehensive HR Management Dashboard using Power BI. This project involved data cleaning, visualization creation, and deriving meaningful insights to empower HR decision-makers.]]></summary></entry><entry><title type="html">Data analysis - MySQL</title><link href="http://localhost:4000/project/sql_data_analysis" rel="alternate" type="text/html" title="Data analysis - MySQL" /><published>2024-02-01T00:00:00-05:00</published><updated>2024-02-01T00:00:00-05:00</updated><id>http://localhost:4000/project/sql_data_analysis</id><content type="html" xml:base="http://localhost:4000/project/sql_data_analysis"><![CDATA[<p target="blank">The SQL project at VivaK involved importing and harmonizing diverse data formats into the ‘vivakdump’ schema, serving as a staging ground. Subsequently, the meticulously crafted ‘vivakhr’ schema was created, ensuring clean and organized data for analysis. Tasks included handling duplicates, aligning data types, and filling missing values to maintain database integrity. Refinement of columns like ‘report_to’ and strategic handling of missing salary entries were key highlights. Additional tasks involved calculating time differences, generating random performance ratings, and updating salary calculations. Overall, the project showcased adept data management strategies, laying the foundation for comprehensive analysis within VivaK’s OLAP system.</p>
-<h6 id="source-code--jekyll-docs">Source Code : <a href="https://jekyllrb.com/docs/"><code class="language-plaintext highlighter-rouge">Jekyll Docs</code></a></h6>
+<h6 id="source-code--vivakhr_analysissql">Source Code : <a href="https://github.com/hemabhaskar/Project/blob/main/Vivakhr_analaysis.sql"><code class="language-plaintext highlighter-rouge">Vivakhr_analysis.sql</code></a></h6>
 
 <h2 id="key-steps-and-analysis">Key Steps and Analysis</h2>
 
@@ -178,7 +148,7 @@ Replace employee email addresses with the new domain ‘vivaK.com’.</p>
   </li>
 </ul>]]></content><author><name></name></author><category term="jekyll" /><category term="informative" /><category term="technology" /><summary type="html"><![CDATA[The objective is to demonstrate SQL proficiency by creating an OLAP Database for VivaK, a retail chain in Southlake, Texas, USA. Tasks include analyzing data, designing a MySQL Data Model, schema creation, data import and cleaning, and performing complex calculations. Key objectives involve handling duplicates, formatting data types, treating missing values, and calculating metrics like experience_at_VivaK and last_performance_rating. This project showcases expertise in SQL data modeling, schema creation, data cleaning, and complex calculations for real-world business analytics challenges.]]></summary></entry><entry><title type="html">Multinomial Logical Regression - Python</title><link href="http://localhost:4000/project/multinomial_regression" rel="alternate" type="text/html" title="Multinomial Logical Regression - Python" /><published>2024-01-01T00:00:00-05:00</published><updated>2024-01-01T00:00:00-05:00</updated><id>http://localhost:4000/project/multinomial_regression</id><content type="html" xml:base="http://localhost:4000/project/multinomial_regression"><![CDATA[<p>Furthermore, the analysis is enriched with profound insights into the predictive capabilities of the Multinomial Regression model. This involves examining the precision, recall, F1-score, and other performance metrics derived from the Confusion Matrix. These metrics offer valuable insights into the model’s ability to correctly identify positive and negative sentiment in the book reviews.</p>
 
-<h6 target="blank" id="source-code--jekyll-docs">Source Code : <a href="https://jekyllrb.com/docs/"><code class="language-plaintext highlighter-rouge">Jekyll Docs</code></a></h6>
+<h6 target="blank" id="source-code--sentimental_analysispy">Source Code : <a href="https://github.com/hemabhaskar/Project/blob/main/Sentimental_analysis.py"><code class="language-plaintext highlighter-rouge">Sentimental_analysis.py</code></a></h6>
 
 <h2 id="multinomial-regression">Multinomial Regression</h2>
 <h4 id="step-1-identifying-variables">Step 1: Identifying Variables</h4>
@@ -216,7 +186,7 @@ Replace employee email addresses with the new domain ‘vivaK.com’.</p>
 <h4 id="step-6-overall-findings">Step 6: Overall Findings</h4>
 
 <p>Upon evaluating the model, it was observed that the model performed well in predicting books with a 5-star rating, achieving a precision of 71%. However, approximately 29% of books that were not actually rated 5 stars were incorrectly classified as such. The model also demonstrated a high recall rate of 93%, indicating that it effectively captured a large proportion of actual 5-star rated books. Overall, the model showed promise in identifying 5-star rated books but may not be as accurate for predicting other ratings.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="informative" /><category term="technology" /><summary type="html"><![CDATA[This project embarks on a thorough sentiment analysis journey using Python, focusing on an Amazon book dataset. The endeavor commences by evaluating the accuracy of the multinomial Regression model, supported by a meticulous presentation of the Confusion Matrix, enriching the analysis with profound insights into the predictive capabilities.This succinct portrayal encapsulates the pivotal stages and accomplishments within the sentiment analysis project, leveraging the expansive Amazon book dataset.]]></summary></entry><entry><title type="html">Data analysis - R Programming</title><link href="http://localhost:4000/project/r_data_analysis" rel="alternate" type="text/html" title="Data analysis - R Programming" /><published>2024-01-01T00:00:00-05:00</published><updated>2024-01-01T00:00:00-05:00</updated><id>http://localhost:4000/project/r_data_analysis</id><content type="html" xml:base="http://localhost:4000/project/r_data_analysis"><![CDATA[<p target="blank">In the Comprehensive Health Data Analysis project for the American Health Association, spearheaded an exhaustive examination of a multifaceted dataset incorporating socio-economic, demographic, and health-related variables at the county level in the United States. By meticulously mapping the data analysis process and conducting Tidy Sanity Checks, have ensured the reliability of subsequent analysis. Thorough data cleaning, inclusive of handling duplicates and outliers, set the stage for a robust exploration of key variables through hierarchical cluster analysis. This method unveiled intricate patterns, shedding light on the socio-economic and health-related determinants influencing cancer incidence and mortality rates. The analysis underscored the pivotal role of factors such as average annual cancer counts, deaths, and socio-economic landscapes in shaping health outcomes. The project’s insights have far-reaching implications for targeted cancer prevention and management strategies. My next steps involve proposing data-driven strategies for the American Health Association and delving into predictive modeling to anticipate future cancer trends. This project exemplifies my adeptness in deriving actionable insights, offering valuable contributions to public health initiatives.</p>
-<h6 id="source-code--jekyll-docs">Source Code : <a href="https://jekyllrb.com/docs/"><code class="language-plaintext highlighter-rouge">Jekyll Docs</code></a></h6>
+<h6 id="source-code--cancer_analysisr">Source Code : <a href="https://github.com/hemabhaskar/Project/blob/main/Cancer_analysis.r"><code class="language-plaintext highlighter-rouge">Cancer_analysis.r</code></a></h6>
 
 <h2 id="key-steps-and-analyses">Key Steps and Analyses</h2>
 
@@ -265,7 +235,7 @@ Replace employee email addresses with the new domain ‘vivaK.com’.</p>
 Uncovered patterns in health indicators that can inform targeted interventions for cancer prevention and management.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="informative" /><category term="technology" /><summary type="html"><![CDATA[The hierarchical cluster analysis aimed to reveal geographic patterns of cancer mortality across US states. By analyzing death rate data and computing distances, it identified clusters with similar mortality profiles. The resulting dendrogram and US map visualization illustrated hierarchical relationships and regional disparities, aiding policymakers in targeting interventions to reduce cancer mortality rates nationwide.]]></summary></entry><entry><title type="html">Adventure works Dashboard - PowerBI</title><link href="http://localhost:4000/project/adworks" rel="alternate" type="text/html" title="Adventure works Dashboard - PowerBI" /><published>2023-12-01T00:00:00-05:00</published><updated>2023-12-01T00:00:00-05:00</updated><id>http://localhost:4000/project/adworks</id><content type="html" xml:base="http://localhost:4000/project/adworks"><![CDATA[<h2 id="overview">Overview</h2>
 <p>Conducted an in-depth analysis of Adventure Works sales data to derive meaningful insights and identify trends. The project involved hypothesis testing, profit analysis, sales analysis, and order analysis to provide a comprehensive understanding of the company’s performance.</p>
 
-<h6 target="blank" id="source-code--jekyll-docs">Source Code : <a href="https://jekyllrb.com/docs/"><code class="language-plaintext highlighter-rouge">Jekyll Docs</code></a></h6>
+<h6 target="blank" id="source-code--adventureworks_salespbix">Source Code : <a href="https://github.com/hemabhaskar/Project/blob/main/Adventureworks_sales.pbix"><code class="language-plaintext highlighter-rouge">Adventureworks_sales.pbix</code></a></h6>
 
 <h2 id="hypothesis-testing">Hypothesis Testing</h2>
 <h3 id="hypothesis---bikes-category-as-a-profitable-venture">Hypothesis - Bikes Category as a Profitable Venture</h3>

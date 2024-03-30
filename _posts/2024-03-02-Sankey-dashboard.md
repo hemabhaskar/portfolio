@@ -14,55 +14,25 @@ tags:
 This HR Analytics Dashboard project involved meticulous data preparation, advanced modeling using Power BI, and insightful data analysis through DAX functions. The resulting visualizations brought to light key trends, such as a demographic concentration in the 30s and 40s, attrition concerns in specific departments, and the prominence of the Production department. The dashboard also revealed salary dynamics and job satisfaction insights, emphasizing the contentment of "Product Technician I." Recommendations include strategies for attrition mitigation, recruitment enhancement, and tailored department-specific interventions. With a clear focus on geographical talent management, the project underscores the importance of optimizing the salary structure and positions itself as a valuable tool for informed HR decision-making and continuous optimization.
 
 {:target="blank"}
-###### Source Code : [`Jekyll Docs`](https://jekyllrb.com/docs/)
+###### Source Code : [`Sankey_Dashboard.twbx`](https://github.com/hemabhaskar/Project/blob/main/Sankey_Dashboard.twbx)
+###### Tableau Live : [`Sankey_Dashboard_Live`](https://public.tableau.com/app/profile/hemalatha.bhaskar/viz/SankeyDashboard_17117628102310/SankeyDashboard)
 
-### Process involved
+<br>
 
-1️. Data Preparation: Ensured the data was clean, organized, and ready for analysis.<br>
-2️. Data Modeling: Structured the data for effective analysis using Power BI.<br>
-3️. Data Analysis (DAX): Leveraged DAX functions to dig deep into the numbers.<br>
-4️. Data Visualization (Dashboard): Created visually compelling dashboards to make complex data easily understandable.<br>
-5️. Insights: Unearthed some fascinating findings!
+#### Summary
 
-### Insights
-#### Employee Demographics Analysis
-Employee distribution indicates a concentration in the 30s and 40s age groups.
-Female employees dominate the 30s, while male employees prevail in the 40s.
+In my Tableau project, utilizing immigration data from Kaggle spanning 2004 to 2013, I constructed a Sankey dashboard illustrating migration patterns to Canada. The visualization showcases the flow of immigrants from various countries over the years, with a focus on the top five countries: China, India, Pakistan, the Philippines, and the United Kingdom.
 
-#### Attrition and Recruitment Trends
-Attrition rate calculated; a potential concern, especially in specific departments.Recruitment channels evaluated, with insights into the most effective sources.
-    
-#### Department-specific Observations
-Production department stands out with the highest employee count
-Attrition rates vary across departments, with Production showing notable figures.
+The project began with the creation of a union with an exact copy of the original data. Calculated fields were then developed to facilitate the construction of the Sankey chart.
 
-#### Salary and Satisfaction Dynamics
-Average salary visualized, revealing insights into the company's overall compensation structure.
-Job satisfaction ratings explored, with "Product Technician I" emerging as the most satisfied position.
+#### Developed calculated fields
+"ToPad" to create values 1 and 49 for filling gaps.
+Implemented binning to bridge the gap between the created values.
+Introduced a new variable "T" to facilitate the spread of Sankey marks.
+Computed running sums of immigrants divided by the total number for the start and end of the Sankey chart.
+Derived a Sigmoid curve to define the curve of the Sankey chart noodles.
 
-#### Geographical Employee Distribution
-Employee distribution across states visualized, highlighting State MA as having the highest number of employees.
+Building the visualization involved utilizing two dimensions, Countries and Year, to create the Sankey chart. Finally, all sheets were integrated to display the flow of immigrants from countries to years, also providing insights into the percentage of total immigrants from 2004 to 2013.
 
-### Recommendations
-#### Attrition Mitigation
-Focus on retention strategies, especially in high-attrition departments.
-Consider personalized incentives for employees in critical roles.
-
-#### Recruitment Enhancement
-Strengthen recruitment from successful channels.
-Leverage insights to refine recruitment strategies for specific departments.
-
-#### Department-specific Strategies
-Address factors contributing to attrition in the Production department.
-Investigate job satisfaction drivers for Product Technician I to replicate success in other roles.
-
-#### Geographical Talent Management
-Explore reasons behind the concentration of employees in State MA.
-Consider tailoring HR strategies based on regional employee dynamics.
-
-#### Salary Structure Optimization
-Evaluate the salary structure against industry benchmarks.
-Introduce targeted adjustments to address potential disparities.
-
-### Inferences and Takeaways
-The HR Management Dashboard provides a nuanced understanding of employee dynamics, allowing for strategic interventions. Identified trends and patterns pave the way for targeted HR initiatives to enhance employee satisfaction, mitigate attrition, and optimize recruitment strategies.
+#### Overall Findings
+The visualization highlights a notable trend: the percentage of total immigrants to Canada has been consistently increasing across the years. Notably, China emerges as the leading contributor, consistently supplying the largest number of immigrants to Canada throughout the analyzed period.

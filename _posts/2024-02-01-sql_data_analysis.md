@@ -11,7 +11,7 @@ tags:
 
 The SQL project at VivaK involved importing and harmonizing diverse data formats into the 'vivakdump' schema, serving as a staging ground. Subsequently, the meticulously crafted 'vivakhr' schema was created, ensuring clean and organized data for analysis. Tasks included handling duplicates, aligning data types, and filling missing values to maintain database integrity. Refinement of columns like 'report_to' and strategic handling of missing salary entries were key highlights. Additional tasks involved calculating time differences, generating random performance ratings, and updating salary calculations. Overall, the project showcased adept data management strategies, laying the foundation for comprehensive analysis within VivaK's OLAP system.
 {:target="blank"}
-###### Source Code : [`Jekyll Docs`](https://jekyllrb.com/docs/)
+###### Source Code : [`Vivakhr_analysis.sql`](https://github.com/hemabhaskar/Project/blob/main/Vivakhr_analaysis.sql)
 
 ## Key Steps and Analysis
 

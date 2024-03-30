@@ -12,7 +12,7 @@ tags:
 Furthermore, the analysis is enriched with profound insights into the predictive capabilities of the Multinomial Regression model. This involves examining the precision, recall, F1-score, and other performance metrics derived from the Confusion Matrix. These metrics offer valuable insights into the model's ability to correctly identify positive and negative sentiment in the book reviews.
 
 {:target="blank"}
-###### Source Code : [`Jekyll Docs`](https://jekyllrb.com/docs/)
+###### Source Code : [`Sentimental_analysis.py`](https://github.com/hemabhaskar/Project/blob/main/Sentimental_analysis.py)
 
 ## Multinomial Regression
 #### Step 1: Identifying Variables

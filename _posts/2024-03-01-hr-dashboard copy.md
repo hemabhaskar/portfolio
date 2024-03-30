@@ -14,7 +14,7 @@ tags:
 This HR Analytics Dashboard project involved meticulous data preparation, advanced modeling using Power BI, and insightful data analysis through DAX functions. The resulting visualizations brought to light key trends, such as a demographic concentration in the 30s and 40s, attrition concerns in specific departments, and the prominence of the Production department. The dashboard also revealed salary dynamics and job satisfaction insights, emphasizing the contentment of "Product Technician I." Recommendations include strategies for attrition mitigation, recruitment enhancement, and tailored department-specific interventions. With a clear focus on geographical talent management, the project underscores the importance of optimizing the salary structure and positions itself as a valuable tool for informed HR decision-making and continuous optimization.
 
 {:target="blank"}
-###### Source Code : [`Jekyll Docs`](https://jekyllrb.com/docs/)
+###### Source Code : [`HR_Analytics dashboard.pbix`](https://github.com/hemabhaskar/Project/blob/main/HR_Analytics%20dashboard.pbix)
 
 ### Process involved
 
