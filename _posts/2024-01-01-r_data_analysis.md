@@ -1,5 +1,5 @@
 ---
-title: Data analysis - R Programming
+title: Cancer analysis - R Programming
 layout: post
 post-image: "https://raw.githubusercontent.com/hemabhaskar/portfolio/gh-pages/assets/images/us_map.png"
 description: 	The hierarchical cluster analysis aimed to reveal geographic patterns of cancer mortality across US states. By analyzing death rate data and computing distances, it identified clusters with similar mortality profiles. The resulting dendrogram and US map visualization illustrated hierarchical relationships and regional disparities, aiding policymakers in targeting interventions to reduce cancer mortality rates nationwide.
