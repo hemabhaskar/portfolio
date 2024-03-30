@@ -1,49 +1,52 @@
 ---
-title: Multinomial Logical Regression
+title: Multinomial Logical Regression - Python
 layout: post
 post-image: "https://raw.githubusercontent.com/hemabhaskar/portfolio/gh-pages/assets/images/Confusion_matrix.png"
-description: Multinomial Logical Regression Model using Python
+description: This project embarks on a thorough sentiment analysis journey using Python, focusing on an Amazon book dataset. The endeavor commences by evaluating the accuracy of the multinomial Regression model, supported by a meticulous presentation of the Confusion Matrix, enriching the analysis with profound insights into the predictive capabilities.This succinct portrayal encapsulates the pivotal stages and accomplishments within the sentiment analysis project, leveraging the expansive Amazon book dataset.
 tags:
 - jekyll
 - informative
 - technology
 ---
 
-Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind GitHub Pages, which you can use to host sites right from your GitHub repositories and if you don't know what GitHub Pages are you can visit on click [here](https://help.github.com/en/github/working-with-github-pages/about-github-pages){:target="blank"} or [here](https://pages.github.com/){:target="blank"}
-###### Source : [`Jekyll Docs`](https://jekyllrb.com/docs/)
+Furthermore, the analysis is enriched with profound insights into the predictive capabilities of the Multinomial Regression model. This involves examining the precision, recall, F1-score, and other performance metrics derived from the Confusion Matrix. These metrics offer valuable insights into the model's ability to correctly identify positive and negative sentiment in the book reviews.
 
-> ### To know more and get started with Jekyll you can click [here](https://jekyllrb.com/){:targe="_blank"}
-	
-# Installation
-**Jekyll is a Ruby Gem that can be installed on most systems.**
-### Requirements
-* [Ruby](https://www.ruby-lang.org/en/downloads/){:target="_blank"} version 2.5.0 or above, including all development headers (ruby version can be checked by running ruby -v)
-* [Ruby Gems](https://rubygems.org/pages/download){:target="_blank"} (which you can check by running gem -v)
-* [GCC](https://gcc.gnu.org/install/){:target="_blank"} and [Make](https://www.gnu.org/software/make/){:target="_blank"}
+{:target="blank"}
+###### Source Code : [`Jekyll Docs`](https://jekyllrb.com/docs/)
 
-### After Installing the Requirements you can follow these guides:
-**For detailed install instructions have a look at the guide for your operating system.**
-* [macOS](https://jekyllrb.com/docs/installation/macos/){:target="_blank"}
-* [Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/){:target="_blank"}
-* [Other Linux Distros](https://jekyllrb.com/docs/installation/other-linux/){:target="_blank"}
-* [Windows](https://jekyllrb.com/docs/installation/windows/){:target="_blank"}
+## Multinomial Regression
+#### Step 1: Identifying Variables
 
-### Creating a new Jekyll site
-**We can create a new Jekyll site just by a simple command:**<br>
-> # `jekyll new my-site`
+The first step involved identifying the variables essential for the multinomial regression analysis. This includes selecting predictor variables (features) that could potentially influence the rating of books, as well as the target variable, which in this case is the book rating.
 
-Jekyll will create a new directory named as `my-site` which is customizable (i.e., you can change the name from `my-site` to anything you want for example `jekyll new brutus`).
+#### Step 2: Data Preparation
 
-### Changing into the Directory
-**We have to go inside the directory:**<br>
-> # `cd my-site`
+Data preparation was crucial for ensuring the quality and suitability of the dataset for analysis. This included removing stopwords and punctuation from the text data to clean and streamline the text for analysis. Additionally, TF/IDF vectorization was applied to convert the text data into numerical vectors, which could be used as input for the regression model.
 
-Again, `my-site` is just a random name which is customizable.
+#### Step 3: Datasets
 
-### Building the site and making it available on a local server
-> # `bundle exec jekyll serve`
+The dataset was divided into two subsets: the training dataset and the test dataset. The training dataset was used to train the multinomial regression model, while the test dataset was reserved for evaluating the model's performance.
 
-### Browsing your Jekyll site
-> # Browse to [`http://localhost:4000/`](http://localhost:4000/){:target="_blank"}
+#### Step 4: Predictive Analysis
 
-###### On encountering any problem while building and serving your Jekyll site you can consider visiting to the [troubleshooting](https://jekyllrb.com/docs/troubleshooting/#configuration-problems){:target="_blank"} page
+In this step, the multinomial regression model was trained using the training dataset. The model learned the relationships between the predictor variables and the book ratings. Once trained, the model was used to predict the ratings of books in the test dataset.
+<li> True Positive (TP): Identified 92633 instances correctly. </li>
+<li> False Positive (FP): Totalled 37315, comprising errors in positive prediction.</li>
+<li>False Negative (FN): Totalled 7317, indicating missed positive identifications.</li>
+<li>These metrics collectively represent the performance of the classification model in predicting positive instances.</li>
+<image src="https://raw.githubusercontent.com/hemabhaskar/portfolio/gh-pages/assets/images/conf_matrix_calc.png" width="480" height="259" frameborder="0"></image>
+<li>Precision: 71% of positive predictions were correct.</li>
+<li>Recall: 93% of actual positives were identified.</li>
+<li>F1 Score: Balanced at 0.81, considering precision and recall.</li>
+<li>Overall Accuracy: Classified 65% of instances correctly.</li>
+<li>Support: Dataset contains 99950 instances, with a total test sample of 169229.</li>
+
+<image src="https://raw.githubusercontent.com/hemabhaskar/portfolio/gh-pages/assets/images/class_report.png" width="480" height="1500" frameborder="0"></image>
+
+#### Step 5: Model Evaluation
+
+The performance of the multinomial regression model was evaluated using various metrics, including the classification report and confusion matrix. These metrics provided insights into the model's precision, recall, and overall accuracy in predicting book ratings.
+
+#### Step 6: Overall Findings
+
+Upon evaluating the model, it was observed that the model performed well in predicting books with a 5-star rating, achieving a precision of 71%. However, approximately 29% of books that were not actually rated 5 stars were incorrectly classified as such. The model also demonstrated a high recall rate of 93%, indicating that it effectively captured a large proportion of actual 5-star rated books. Overall, the model showed promise in identifying 5-star rated books but may not be as accurate for predicting other ratings.

@@ -1,5 +1,5 @@
 ---
-title: HR Dashboard
+title: HR Dashboard - PowerBI
 layout: post
 post-image: "https://raw.githubusercontent.com/hemabhaskar/portfolio/gh-pages/assets/images/HR_dashboard_powerBI.png"
 description: Transformed raw HR data from the Human Resources Dataset on Kaggle into a comprehensive HR Management Dashboard using Power BI. This project involved data cleaning, visualization creation, and deriving meaningful insights to empower HR decision-makers.

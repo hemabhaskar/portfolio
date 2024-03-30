@@ -1,8 +1,8 @@
 ---
-title: Data analysis using SQL
+title: Data analysis - MySQL
 layout: post
-post-image: "https://raw.githubusercontent.com/hemabhaskar/portfolio/gh-pages/assets/images/us_map.png"
-description: Data analysis using SQL
+post-image: "https://raw.githubusercontent.com/hemabhaskar/portfolio/gh-pages/assets/images/ER_diagram.png"
+description: The objective is to demonstrate SQL proficiency by creating an OLAP Database for VivaK, a retail chain in Southlake, Texas, USA. Tasks include analyzing data, designing a MySQL Data Model, schema creation, data import and cleaning, and performing complex calculations. Key objectives involve handling duplicates, formatting data types, treating missing values, and calculating metrics like experience_at_VivaK and last_performance_rating. This project showcases expertise in SQL data modeling, schema creation, data cleaning, and complex calculations for real-world business analytics challenges.
 tags:
 - jekyll
 - informative
@@ -13,14 +13,17 @@ The SQL project at VivaK involved importing and harmonizing diverse data formats
 {:target="blank"}
 ###### Source Code : [`Jekyll Docs`](https://jekyllrb.com/docs/)
 
-## Key Steps and Analyses
+## Key Steps and Analysis
 
 Given the complexity of the data management at VivaK, which involved multiple formats and anomalies, a meticulous plan was devised by importing data from various sources into a schema named 'vivakdump.' This schema served as a staging ground for harmonizing data from JSON, CSV, and Excel files.
 
 The process unfolded in three steps
-1. SQL File Upload: Initiated the process by uploading the SQL file (HR) containing essential data (countries, locations, and regions). This formed the foundational layer for subsequent integration.
-2. Importing Diverse Data Formats: Systematically, have imported data from JSON (employees), CSV (dependent), and Excel (orgstructure) files into the 'vivakdump' schema. This ensured seamless coexistence of data from different sources.
-3.Creation of Final 'vivakhr' Schema: With all data consolidated in the 'vivakdump' schema, the final 'vivakhr' schema has been created. This schema, characterized by clean and organized data, led to the well-designed OLAP database for VivaK.
+##### 1. SQL File Upload<br>
+ Initiated the process by uploading the SQL file (HR) containing essential data (countries, locations, and regions). This formed the foundational layer for subsequent integration.
+##### 2. Importing Diverse Data Formats<br>
+Systematically, have imported data from JSON (employees), CSV (dependent), and Excel (orgstructure) files into the 'vivakdump' schema. This ensured seamless coexistence of data from different sources.
+##### 3. Creation of Final 'vivakhr' Schema<br>
+With all data consolidated in the 'vivakdump' schema, the final 'vivakhr' schema has been created. This schema, characterized by clean and organized data, led to the well-designed OLAP database for VivaK.
 
 ### Schema Design Process
 Entities:
@@ -47,11 +50,10 @@ Data Insertion into vivakhr Schema Tables:
 Data insertion into tables involved careful selection of records from corresponding tables in the 'vivakdump' schema.
 
 ### Handling Missing Values
-The 'report_to' column in the 'employees' table underwent refinement through a meticulous analysis of available data, ensuring accurate managerial information was seamlessly integrated. Additionally,the missing entries in the salary column were addressed  by employing an innovative approach.Calculated the average value of 'min_salary' and 'max_salary,' providing a comprehensive solution to ensure data completeness and accuracy within VivaK's OLAP system.
+A thorough examination of the data at hand resulted in the "report_to" column in the "employees" table being refined, guaranteeing that correct managerial information was effortlessly incorporated. Additionally, a creative solution was used to solve the missing entries in the salary column which determined the mean of "min_salary" and "max_salary," offering a thorough way to guarantee accuracy and completeness of data in VivaK's OLAP system.
 
 ### Handle Duplicates
-Ensured that the  tables are in full-normalized form, eliminating data redundancy.
-Check for and handle duplicates using qualifying candidate keys.
+Ensured that there is no redundant data in the tables and that they are fully normalized. Use qualifying candidate keys to detect and deal with duplicates.
 
 ### Calculations and Updates
 

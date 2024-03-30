@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-03-25T18:32:01-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hemalatha Bhaskar</title><subtitle>Data Analyst Portfolio</subtitle><entry><title type="html">HR Dashboard</title><link href="http://localhost:4000/project/hr-dashboard" rel="alternate" type="text/html" title="HR Dashboard" /><published>2024-03-01T00:00:00-05:00</published><updated>2024-03-01T00:00:00-05:00</updated><id>http://localhost:4000/project/hr-dashboard</id><content type="html" xml:base="http://localhost:4000/project/hr-dashboard"><![CDATA[<hr />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-03-29T22:45:29-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hemalatha Bhaskar</title><subtitle>Data Analyst Portfolio</subtitle><entry><title type="html">Immigration Dashboard - Tableau</title><link href="http://localhost:4000/project/Sankey-dashboard" rel="alternate" type="text/html" title="Immigration Dashboard - Tableau" /><published>2024-03-02T00:00:00-05:00</published><updated>2024-03-02T00:00:00-05:00</updated><id>http://localhost:4000/project/Sankey-dashboard</id><content type="html" xml:base="http://localhost:4000/project/Sankey-dashboard"><![CDATA[<hr />
 
 <p>This HR Analytics Dashboard project involved meticulous data preparation, advanced modeling using Power BI, and insightful data analysis through DAX functions. The resulting visualizations brought to light key trends, such as a demographic concentration in the 30s and 40s, attrition concerns in specific departments, and the prominence of the Production department. The dashboard also revealed salary dynamics and job satisfaction insights, emphasizing the contentment of “Product Technician I.” Recommendations include strategies for attrition mitigation, recruitment enhancement, and tailored department-specific interventions. With a clear focus on geographical talent management, the project underscores the importance of optimizing the salary structure and positions itself as a valuable tool for informed HR decision-making and continuous optimization.</p>
 
@@ -53,19 +53,75 @@ Consider tailoring HR strategies based on regional employee dynamics.</p>
 Introduce targeted adjustments to address potential disparities.</p>
 
 <h3 id="inferences-and-takeaways">Inferences and Takeaways</h3>
-<p>The HR Management Dashboard provides a nuanced understanding of employee dynamics, allowing for strategic interventions. Identified trends and patterns pave the way for targeted HR initiatives to enhance employee satisfaction, mitigate attrition, and optimize recruitment strategies.</p>]]></content><author><name></name></author><category term="sample" /><category term="post" /><category term="test" /><summary type="html"><![CDATA[Transformed raw HR data from the Human Resources Dataset on Kaggle into a comprehensive HR Management Dashboard using Power BI. This project involved data cleaning, visualization creation, and deriving meaningful insights to empower HR decision-makers.]]></summary></entry><entry><title type="html">Data analysis using SQL</title><link href="http://localhost:4000/project/sql_data_analysis" rel="alternate" type="text/html" title="Data analysis using SQL" /><published>2024-02-01T00:00:00-05:00</published><updated>2024-02-01T00:00:00-05:00</updated><id>http://localhost:4000/project/sql_data_analysis</id><content type="html" xml:base="http://localhost:4000/project/sql_data_analysis"><![CDATA[<p target="blank">The SQL project at VivaK involved importing and harmonizing diverse data formats into the ‘vivakdump’ schema, serving as a staging ground. Subsequently, the meticulously crafted ‘vivakhr’ schema was created, ensuring clean and organized data for analysis. Tasks included handling duplicates, aligning data types, and filling missing values to maintain database integrity. Refinement of columns like ‘report_to’ and strategic handling of missing salary entries were key highlights. Additional tasks involved calculating time differences, generating random performance ratings, and updating salary calculations. Overall, the project showcased adept data management strategies, laying the foundation for comprehensive analysis within VivaK’s OLAP system.</p>
+<p>The HR Management Dashboard provides a nuanced understanding of employee dynamics, allowing for strategic interventions. Identified trends and patterns pave the way for targeted HR initiatives to enhance employee satisfaction, mitigate attrition, and optimize recruitment strategies.</p>]]></content><author><name></name></author><category term="sample" /><category term="post" /><category term="test" /><summary type="html"><![CDATA[Transformed raw HR data from the Human Resources Dataset on Kaggle into a comprehensive HR Management Dashboard using Power BI. This project involved data cleaning, visualization creation, and deriving meaningful insights to empower HR decision-makers.]]></summary></entry><entry><title type="html">HR Dashboard - PowerBI</title><link href="http://localhost:4000/project/hr-dashboard-copy" rel="alternate" type="text/html" title="HR Dashboard - PowerBI" /><published>2024-03-01T00:00:00-05:00</published><updated>2024-03-01T00:00:00-05:00</updated><id>http://localhost:4000/project/hr-dashboard%20copy</id><content type="html" xml:base="http://localhost:4000/project/hr-dashboard-copy"><![CDATA[<hr />
+
+<p>This HR Analytics Dashboard project involved meticulous data preparation, advanced modeling using Power BI, and insightful data analysis through DAX functions. The resulting visualizations brought to light key trends, such as a demographic concentration in the 30s and 40s, attrition concerns in specific departments, and the prominence of the Production department. The dashboard also revealed salary dynamics and job satisfaction insights, emphasizing the contentment of “Product Technician I.” Recommendations include strategies for attrition mitigation, recruitment enhancement, and tailored department-specific interventions. With a clear focus on geographical talent management, the project underscores the importance of optimizing the salary structure and positions itself as a valuable tool for informed HR decision-making and continuous optimization.</p>
+
+<h6 target="blank" id="source-code--jekyll-docs">Source Code : <a href="https://jekyllrb.com/docs/"><code class="language-plaintext highlighter-rouge">Jekyll Docs</code></a></h6>
+
+<h3 id="process-involved">Process involved</h3>
+
+<p>1️. Data Preparation: Ensured the data was clean, organized, and ready for analysis.<br />
+2️. Data Modeling: Structured the data for effective analysis using Power BI.<br />
+3️. Data Analysis (DAX): Leveraged DAX functions to dig deep into the numbers.<br />
+4️. Data Visualization (Dashboard): Created visually compelling dashboards to make complex data easily understandable.<br />
+5️. Insights: Unearthed some fascinating findings!</p>
+
+<h3 id="insights">Insights</h3>
+<h4 id="employee-demographics-analysis">Employee Demographics Analysis</h4>
+<p>Employee distribution indicates a concentration in the 30s and 40s age groups.
+Female employees dominate the 30s, while male employees prevail in the 40s.</p>
+
+<h4 id="attrition-and-recruitment-trends">Attrition and Recruitment Trends</h4>
+<p>Attrition rate calculated; a potential concern, especially in specific departments.Recruitment channels evaluated, with insights into the most effective sources.</p>
+
+<h4 id="department-specific-observations">Department-specific Observations</h4>
+<p>Production department stands out with the highest employee count
+Attrition rates vary across departments, with Production showing notable figures.</p>
+
+<h4 id="salary-and-satisfaction-dynamics">Salary and Satisfaction Dynamics</h4>
+<p>Average salary visualized, revealing insights into the company’s overall compensation structure.
+Job satisfaction ratings explored, with “Product Technician I” emerging as the most satisfied position.</p>
+
+<h4 id="geographical-employee-distribution">Geographical Employee Distribution</h4>
+<p>Employee distribution across states visualized, highlighting State MA as having the highest number of employees.</p>
+
+<h3 id="recommendations">Recommendations</h3>
+<h4 id="attrition-mitigation">Attrition Mitigation</h4>
+<p>Focus on retention strategies, especially in high-attrition departments.
+Consider personalized incentives for employees in critical roles.</p>
+
+<h4 id="recruitment-enhancement">Recruitment Enhancement</h4>
+<p>Strengthen recruitment from successful channels.
+Leverage insights to refine recruitment strategies for specific departments.</p>
+
+<h4 id="department-specific-strategies">Department-specific Strategies</h4>
+<p>Address factors contributing to attrition in the Production department.
+Investigate job satisfaction drivers for Product Technician I to replicate success in other roles.</p>
+
+<h4 id="geographical-talent-management">Geographical Talent Management</h4>
+<p>Explore reasons behind the concentration of employees in State MA.
+Consider tailoring HR strategies based on regional employee dynamics.</p>
+
+<h4 id="salary-structure-optimization">Salary Structure Optimization</h4>
+<p>Evaluate the salary structure against industry benchmarks.
+Introduce targeted adjustments to address potential disparities.</p>
+
+<h3 id="inferences-and-takeaways">Inferences and Takeaways</h3>
+<p>The HR Management Dashboard provides a nuanced understanding of employee dynamics, allowing for strategic interventions. Identified trends and patterns pave the way for targeted HR initiatives to enhance employee satisfaction, mitigate attrition, and optimize recruitment strategies.</p>]]></content><author><name></name></author><category term="sample" /><category term="post" /><category term="test" /><summary type="html"><![CDATA[Transformed raw HR data from the Human Resources Dataset on Kaggle into a comprehensive HR Management Dashboard using Power BI. This project involved data cleaning, visualization creation, and deriving meaningful insights to empower HR decision-makers.]]></summary></entry><entry><title type="html">Data analysis - MySQL</title><link href="http://localhost:4000/project/sql_data_analysis" rel="alternate" type="text/html" title="Data analysis - MySQL" /><published>2024-02-01T00:00:00-05:00</published><updated>2024-02-01T00:00:00-05:00</updated><id>http://localhost:4000/project/sql_data_analysis</id><content type="html" xml:base="http://localhost:4000/project/sql_data_analysis"><![CDATA[<p target="blank">The SQL project at VivaK involved importing and harmonizing diverse data formats into the ‘vivakdump’ schema, serving as a staging ground. Subsequently, the meticulously crafted ‘vivakhr’ schema was created, ensuring clean and organized data for analysis. Tasks included handling duplicates, aligning data types, and filling missing values to maintain database integrity. Refinement of columns like ‘report_to’ and strategic handling of missing salary entries were key highlights. Additional tasks involved calculating time differences, generating random performance ratings, and updating salary calculations. Overall, the project showcased adept data management strategies, laying the foundation for comprehensive analysis within VivaK’s OLAP system.</p>
 <h6 id="source-code--jekyll-docs">Source Code : <a href="https://jekyllrb.com/docs/"><code class="language-plaintext highlighter-rouge">Jekyll Docs</code></a></h6>
 
-<h2 id="key-steps-and-analyses">Key Steps and Analyses</h2>
+<h2 id="key-steps-and-analysis">Key Steps and Analysis</h2>
 
 <p>Given the complexity of the data management at VivaK, which involved multiple formats and anomalies, a meticulous plan was devised by importing data from various sources into a schema named ‘vivakdump.’ This schema served as a staging ground for harmonizing data from JSON, CSV, and Excel files.</p>
 
 <p>The process unfolded in three steps</p>
-<ol>
-  <li>SQL File Upload: Initiated the process by uploading the SQL file (HR) containing essential data (countries, locations, and regions). This formed the foundational layer for subsequent integration.</li>
-  <li>Importing Diverse Data Formats: Systematically, have imported data from JSON (employees), CSV (dependent), and Excel (orgstructure) files into the ‘vivakdump’ schema. This ensured seamless coexistence of data from different sources.
-3.Creation of Final ‘vivakhr’ Schema: With all data consolidated in the ‘vivakdump’ schema, the final ‘vivakhr’ schema has been created. This schema, characterized by clean and organized data, led to the well-designed OLAP database for VivaK.</li>
-</ol>
+<h5 id="1-sql-file-upload">1. SQL File Upload<br /></h5>
+<p>Initiated the process by uploading the SQL file (HR) containing essential data (countries, locations, and regions). This formed the foundational layer for subsequent integration.</p>
+<h5 id="2-importing-diverse-data-formats">2. Importing Diverse Data Formats<br /></h5>
+<p>Systematically, have imported data from JSON (employees), CSV (dependent), and Excel (orgstructure) files into the ‘vivakdump’ schema. This ensured seamless coexistence of data from different sources.</p>
+<h5 id="3-creation-of-final-vivakhr-schema">3. Creation of Final ‘vivakhr’ Schema<br /></h5>
+<p>With all data consolidated in the ‘vivakdump’ schema, the final ‘vivakhr’ schema has been created. This schema, characterized by clean and organized data, led to the well-designed OLAP database for VivaK.</p>
 
 <h3 id="schema-design-process">Schema Design Process</h3>
 <p>Entities:
@@ -92,11 +148,10 @@ Define foreign keys based on relationships.</p>
 Data insertion into tables involved careful selection of records from corresponding tables in the ‘vivakdump’ schema.</p>
 
 <h3 id="handling-missing-values">Handling Missing Values</h3>
-<p>The ‘report_to’ column in the ‘employees’ table underwent refinement through a meticulous analysis of available data, ensuring accurate managerial information was seamlessly integrated. Additionally,the missing entries in the salary column were addressed  by employing an innovative approach.Calculated the average value of ‘min_salary’ and ‘max_salary,’ providing a comprehensive solution to ensure data completeness and accuracy within VivaK’s OLAP system.</p>
+<p>A thorough examination of the data at hand resulted in the “report_to” column in the “employees” table being refined, guaranteeing that correct managerial information was effortlessly incorporated. Additionally, a creative solution was used to solve the missing entries in the salary column which determined the mean of “min_salary” and “max_salary,” offering a thorough way to guarantee accuracy and completeness of data in VivaK’s OLAP system.</p>
 
 <h3 id="handle-duplicates">Handle Duplicates</h3>
-<p>Ensured that the  tables are in full-normalized form, eliminating data redundancy.
-Check for and handle duplicates using qualifying candidate keys.</p>
+<p>Ensured that there is no redundant data in the tables and that they are fully normalized. Use qualifying candidate keys to detect and deal with duplicates.</p>
 
 <h3 id="calculations-and-updates">Calculations and Updates</h3>
 
@@ -121,64 +176,54 @@ Calculate and update the annual_dependent_benefit column based on the specified 
     <p>Email Update
 Replace employee email addresses with the new domain ‘vivaK.com’.</p>
   </li>
-</ul>]]></content><author><name></name></author><category term="jekyll" /><category term="informative" /><category term="technology" /><summary type="html"><![CDATA[Data analysis using SQL]]></summary></entry><entry><title type="html">Multinomial Logical Regression</title><link href="http://localhost:4000/project/multinomial_regression" rel="alternate" type="text/html" title="Multinomial Logical Regression" /><published>2024-01-01T00:00:00-05:00</published><updated>2024-01-01T00:00:00-05:00</updated><id>http://localhost:4000/project/multinomial_regression</id><content type="html" xml:base="http://localhost:4000/project/multinomial_regression"><![CDATA[<p>Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind GitHub Pages, which you can use to host sites right from your GitHub repositories and if you don’t know what GitHub Pages are you can visit on click <a href="https://help.github.com/en/github/working-with-github-pages/about-github-pages" target="blank">here</a> or <a href="https://pages.github.com/" target="blank">here</a></p>
-<h6 id="source--jekyll-docs">Source : <a href="https://jekyllrb.com/docs/"><code class="language-plaintext highlighter-rouge">Jekyll Docs</code></a></h6>
+</ul>]]></content><author><name></name></author><category term="jekyll" /><category term="informative" /><category term="technology" /><summary type="html"><![CDATA[The objective is to demonstrate SQL proficiency by creating an OLAP Database for VivaK, a retail chain in Southlake, Texas, USA. Tasks include analyzing data, designing a MySQL Data Model, schema creation, data import and cleaning, and performing complex calculations. Key objectives involve handling duplicates, formatting data types, treating missing values, and calculating metrics like experience_at_VivaK and last_performance_rating. This project showcases expertise in SQL data modeling, schema creation, data cleaning, and complex calculations for real-world business analytics challenges.]]></summary></entry><entry><title type="html">Multinomial Logical Regression - Python</title><link href="http://localhost:4000/project/multinomial_regression" rel="alternate" type="text/html" title="Multinomial Logical Regression - Python" /><published>2024-01-01T00:00:00-05:00</published><updated>2024-01-01T00:00:00-05:00</updated><id>http://localhost:4000/project/multinomial_regression</id><content type="html" xml:base="http://localhost:4000/project/multinomial_regression"><![CDATA[<p>Furthermore, the analysis is enriched with profound insights into the predictive capabilities of the Multinomial Regression model. This involves examining the precision, recall, F1-score, and other performance metrics derived from the Confusion Matrix. These metrics offer valuable insights into the model’s ability to correctly identify positive and negative sentiment in the book reviews.</p>
 
-<blockquote>
-  <h3 id="to-know-more-and-get-started-with-jekyll-you-can-click-here">To know more and get started with Jekyll you can click <a href="https://jekyllrb.com/" targe="_blank">here</a></h3>
-</blockquote>
+<h6 target="blank" id="source-code--jekyll-docs">Source Code : <a href="https://jekyllrb.com/docs/"><code class="language-plaintext highlighter-rouge">Jekyll Docs</code></a></h6>
 
-<h1 id="installation">Installation</h1>
-<p><strong>Jekyll is a Ruby Gem that can be installed on most systems.</strong></p>
-<h3 id="requirements">Requirements</h3>
-<ul>
-  <li><a href="https://www.ruby-lang.org/en/downloads/" target="_blank">Ruby</a> version 2.5.0 or above, including all development headers (ruby version can be checked by running ruby -v)</li>
-  <li><a href="https://rubygems.org/pages/download" target="_blank">Ruby Gems</a> (which you can check by running gem -v)</li>
-  <li><a href="https://gcc.gnu.org/install/" target="_blank">GCC</a> and <a href="https://www.gnu.org/software/make/" target="_blank">Make</a></li>
-</ul>
+<h2 id="multinomial-regression">Multinomial Regression</h2>
+<h4 id="step-1-identifying-variables">Step 1: Identifying Variables</h4>
 
-<h3 id="after-installing-the-requirements-you-can-follow-these-guides">After Installing the Requirements you can follow these guides:</h3>
-<p><strong>For detailed install instructions have a look at the guide for your operating system.</strong></p>
-<ul>
-  <li><a href="https://jekyllrb.com/docs/installation/macos/" target="_blank">macOS</a></li>
-  <li><a href="https://jekyllrb.com/docs/installation/ubuntu/" target="_blank">Ubuntu</a></li>
-  <li><a href="https://jekyllrb.com/docs/installation/other-linux/" target="_blank">Other Linux Distros</a></li>
-  <li><a href="https://jekyllrb.com/docs/installation/windows/" target="_blank">Windows</a></li>
-</ul>
+<p>The first step involved identifying the variables essential for the multinomial regression analysis. This includes selecting predictor variables (features) that could potentially influence the rating of books, as well as the target variable, which in this case is the book rating.</p>
 
-<h3 id="creating-a-new-jekyll-site">Creating a new Jekyll site</h3>
-<p><strong>We can create a new Jekyll site just by a simple command:</strong><br /></p>
-<blockquote>
-  <h1 id="jekyll-new-my-site"><code class="language-plaintext highlighter-rouge">jekyll new my-site</code></h1>
-</blockquote>
+<h4 id="step-2-data-preparation">Step 2: Data Preparation</h4>
 
-<p>Jekyll will create a new directory named as <code class="language-plaintext highlighter-rouge">my-site</code> which is customizable (i.e., you can change the name from <code class="language-plaintext highlighter-rouge">my-site</code> to anything you want for example <code class="language-plaintext highlighter-rouge">jekyll new brutus</code>).</p>
+<p>Data preparation was crucial for ensuring the quality and suitability of the dataset for analysis. This included removing stopwords and punctuation from the text data to clean and streamline the text for analysis. Additionally, TF/IDF vectorization was applied to convert the text data into numerical vectors, which could be used as input for the regression model.</p>
 
-<h3 id="changing-into-the-directory">Changing into the Directory</h3>
-<p><strong>We have to go inside the directory:</strong><br /></p>
-<blockquote>
-  <h1 id="cd-my-site"><code class="language-plaintext highlighter-rouge">cd my-site</code></h1>
-</blockquote>
+<h4 id="step-3-datasets">Step 3: Datasets</h4>
 
-<p>Again, <code class="language-plaintext highlighter-rouge">my-site</code> is just a random name which is customizable.</p>
+<p>The dataset was divided into two subsets: the training dataset and the test dataset. The training dataset was used to train the multinomial regression model, while the test dataset was reserved for evaluating the model’s performance.</p>
 
-<h3 id="building-the-site-and-making-it-available-on-a-local-server">Building the site and making it available on a local server</h3>
-<blockquote>
-  <h1 id="bundle-exec-jekyll-serve"><code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code></h1>
-</blockquote>
+<h4 id="step-4-predictive-analysis">Step 4: Predictive Analysis</h4>
 
-<h3 id="browsing-your-jekyll-site">Browsing your Jekyll site</h3>
-<blockquote>
-  <h1 id="browse-to-httplocalhost4000">Browse to <a href="http://localhost:4000/" target="_blank"><code class="language-plaintext highlighter-rouge">http://localhost:4000/</code></a></h1>
-</blockquote>
+<p>In this step, the multinomial regression model was trained using the training dataset. The model learned the relationships between the predictor variables and the book ratings. Once trained, the model was used to predict the ratings of books in the test dataset.</p>
+<li> True Positive (TP): Identified 92633 instances correctly. </li>
+<li> False Positive (FP): Totalled 37315, comprising errors in positive prediction.</li>
+<li>False Negative (FN): Totalled 7317, indicating missed positive identifications.</li>
+<li>These metrics collectively represent the performance of the classification model in predicting positive instances.</li>
+<image src="https://raw.githubusercontent.com/hemabhaskar/portfolio/gh-pages/assets/images/conf_matrix_calc.png" width="480" height="259" frameborder="0"></image>
+<li>Precision: 71% of positive predictions were correct.</li>
+<li>Recall: 93% of actual positives were identified.</li>
+<li>F1 Score: Balanced at 0.81, considering precision and recall.</li>
+<li>Overall Accuracy: Classified 65% of instances correctly.</li>
+<li>Support: Dataset contains 99950 instances, with a total test sample of 169229.</li>
 
-<h6 id="on-encountering-any-problem-while-building-and-serving-your-jekyll-site-you-can-consider-visiting-to-the-troubleshooting-page">On encountering any problem while building and serving your Jekyll site you can consider visiting to the <a href="https://jekyllrb.com/docs/troubleshooting/#configuration-problems" target="_blank">troubleshooting</a> page</h6>]]></content><author><name></name></author><category term="jekyll" /><category term="informative" /><category term="technology" /><summary type="html"><![CDATA[Multinomial Logical Regression Model using Python]]></summary></entry><entry><title type="html">Data analysis using R</title><link href="http://localhost:4000/project/r_data_analysis" rel="alternate" type="text/html" title="Data analysis using R" /><published>2024-01-01T00:00:00-05:00</published><updated>2024-01-01T00:00:00-05:00</updated><id>http://localhost:4000/project/r_data_analysis</id><content type="html" xml:base="http://localhost:4000/project/r_data_analysis"><![CDATA[<p target="blank">In the Comprehensive Health Data Analysis project for the American Health Association, I spearheaded an exhaustive examination of a multifaceted dataset incorporating socio-economic, demographic, and health-related variables at the county level in the United States. By meticulously mapping the data analysis process and conducting Tidy Sanity Checks, I ensured the reliability of subsequent analyses. Thorough data cleaning, inclusive of handling duplicates and outliers, set the stage for a robust exploration of key variables through hierarchical cluster analysis. This method unveiled intricate patterns, shedding light on the socio-economic and health-related determinants influencing cancer incidence and mortality rates. The analysis underscored the pivotal role of factors such as average annual cancer counts, deaths, and socio-economic landscapes in shaping health outcomes. The project’s insights have far-reaching implications for targeted cancer prevention and management strategies. My next steps involve proposing data-driven strategies for the American Health Association and delving into predictive modeling to anticipate future cancer trends. This project exemplifies my adeptness in deriving actionable insights, offering valuable contributions to public health initiatives.</p>
+<image src="https://raw.githubusercontent.com/hemabhaskar/portfolio/gh-pages/assets/images/class_report.png" width="480" height="1500" frameborder="0"></image>
+
+<h4 id="step-5-model-evaluation">Step 5: Model Evaluation</h4>
+
+<p>The performance of the multinomial regression model was evaluated using various metrics, including the classification report and confusion matrix. These metrics provided insights into the model’s precision, recall, and overall accuracy in predicting book ratings.</p>
+
+<h4 id="step-6-overall-findings">Step 6: Overall Findings</h4>
+
+<p>Upon evaluating the model, it was observed that the model performed well in predicting books with a 5-star rating, achieving a precision of 71%. However, approximately 29% of books that were not actually rated 5 stars were incorrectly classified as such. The model also demonstrated a high recall rate of 93%, indicating that it effectively captured a large proportion of actual 5-star rated books. Overall, the model showed promise in identifying 5-star rated books but may not be as accurate for predicting other ratings.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="informative" /><category term="technology" /><summary type="html"><![CDATA[This project embarks on a thorough sentiment analysis journey using Python, focusing on an Amazon book dataset. The endeavor commences by evaluating the accuracy of the multinomial Regression model, supported by a meticulous presentation of the Confusion Matrix, enriching the analysis with profound insights into the predictive capabilities.This succinct portrayal encapsulates the pivotal stages and accomplishments within the sentiment analysis project, leveraging the expansive Amazon book dataset.]]></summary></entry><entry><title type="html">Data analysis - R Programming</title><link href="http://localhost:4000/project/r_data_analysis" rel="alternate" type="text/html" title="Data analysis - R Programming" /><published>2024-01-01T00:00:00-05:00</published><updated>2024-01-01T00:00:00-05:00</updated><id>http://localhost:4000/project/r_data_analysis</id><content type="html" xml:base="http://localhost:4000/project/r_data_analysis"><![CDATA[<p target="blank">In the Comprehensive Health Data Analysis project for the American Health Association, spearheaded an exhaustive examination of a multifaceted dataset incorporating socio-economic, demographic, and health-related variables at the county level in the United States. By meticulously mapping the data analysis process and conducting Tidy Sanity Checks, have ensured the reliability of subsequent analysis. Thorough data cleaning, inclusive of handling duplicates and outliers, set the stage for a robust exploration of key variables through hierarchical cluster analysis. This method unveiled intricate patterns, shedding light on the socio-economic and health-related determinants influencing cancer incidence and mortality rates. The analysis underscored the pivotal role of factors such as average annual cancer counts, deaths, and socio-economic landscapes in shaping health outcomes. The project’s insights have far-reaching implications for targeted cancer prevention and management strategies. My next steps involve proposing data-driven strategies for the American Health Association and delving into predictive modeling to anticipate future cancer trends. This project exemplifies my adeptness in deriving actionable insights, offering valuable contributions to public health initiatives.</p>
 <h6 id="source-code--jekyll-docs">Source Code : <a href="https://jekyllrb.com/docs/"><code class="language-plaintext highlighter-rouge">Jekyll Docs</code></a></h6>
 
 <h2 id="key-steps-and-analyses">Key Steps and Analyses</h2>
 
 <h3 id="data-analysis-process-mapping">Data Analysis Process Mapping</h3>
 <p>Developed a comprehensive process map outlining the workflow for the entire data analysis project.</p>
+
+<image src="https://raw.githubusercontent.com/hemabhaskar/portfolio/gh-pages/assets/images/process_map.gif" width="480" height="259" frameborder="0" class="giphy-embed" allowfullscreen=""></image>
 
 <h3 id="tidy-sanity-checks">Tidy Sanity Checks</h3>
 <p>Ensured data tidiness by performing sanity checks to validate the structure and format.</p>
@@ -193,7 +238,9 @@ Replace employee email addresses with the new domain ‘vivaK.com’.</p>
 
 <p>To enhance interpretability, the dendrogram was segmented into six distinct clusters, each representing a cohesive group of states sharing similar death rate patterns. Adding a rectangular box to demarcate these clusters provided a clear visual guide for cluster identification. Notably, the analysis highlighted Kentucky as a state with the highest death rates, aligning it with the characteristics of cluster 6. This detailed hierarchical clustering approach not only unraveled the inherent structure within the death rate data but also offered a nuanced perspective on state-wise variations, showcasing the potential for targeted interventions and healthcare resource allocation.</p>
 
-<image src="https://raw.githubusercontent.com/hemabhaskar/portfolio/gh-pages/assets/images/process_map.gif" width="480" height="259" frameborder="0" class="giphy-embed" allowfullscreen=""></image>
+<image src="https://raw.githubusercontent.com/hemabhaskar/portfolio/gh-pages/assets/images/Dendrogram.png" width="480" height="259" frameborder="0" allowfullscreen=""></image>
+
+<image src="https://raw.githubusercontent.com/hemabhaskar/portfolio/gh-pages/assets/images/us_map.png" width="480" height="259" frameborder="0" allowfullscreen=""></image>
 
 <h3 id="key-variables-analyzed">Key Variables Analyzed</h3>
 
@@ -215,7 +262,7 @@ Replace employee email addresses with the new domain ‘vivaK.com’.</p>
 <h3 id="insights-and-recommendations">Insights and Recommendations</h3>
 
 <p>Identified key socio-economic and demographic factors influencing cancer outcomes.
-Uncovered patterns in health indicators that can inform targeted interventions for cancer prevention and management.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="informative" /><category term="technology" /><summary type="html"><![CDATA[Data analysis using R]]></summary></entry><entry><title type="html">Adventure works</title><link href="http://localhost:4000/project/adworks" rel="alternate" type="text/html" title="Adventure works" /><published>2023-12-01T00:00:00-05:00</published><updated>2023-12-01T00:00:00-05:00</updated><id>http://localhost:4000/project/adworks</id><content type="html" xml:base="http://localhost:4000/project/adworks"><![CDATA[<h2 id="overview">Overview</h2>
+Uncovered patterns in health indicators that can inform targeted interventions for cancer prevention and management.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="informative" /><category term="technology" /><summary type="html"><![CDATA[The hierarchical cluster analysis aimed to reveal geographic patterns of cancer mortality across US states. By analyzing death rate data and computing distances, it identified clusters with similar mortality profiles. The resulting dendrogram and US map visualization illustrated hierarchical relationships and regional disparities, aiding policymakers in targeting interventions to reduce cancer mortality rates nationwide.]]></summary></entry><entry><title type="html">Adventure works Dashboard - PowerBI</title><link href="http://localhost:4000/project/adworks" rel="alternate" type="text/html" title="Adventure works Dashboard - PowerBI" /><published>2023-12-01T00:00:00-05:00</published><updated>2023-12-01T00:00:00-05:00</updated><id>http://localhost:4000/project/adworks</id><content type="html" xml:base="http://localhost:4000/project/adworks"><![CDATA[<h2 id="overview">Overview</h2>
 <p>Conducted an in-depth analysis of Adventure Works sales data to derive meaningful insights and identify trends. The project involved hypothesis testing, profit analysis, sales analysis, and order analysis to provide a comprehensive understanding of the company’s performance.</p>
 
 <h6 target="blank" id="source-code--jekyll-docs">Source Code : <a href="https://jekyllrb.com/docs/"><code class="language-plaintext highlighter-rouge">Jekyll Docs</code></a></h6>
@@ -233,14 +280,25 @@ Visualized profit analysis by month and financial year for the bike category.
 Identified a dip in profit across all financial years in June, with May 2020 being the most profitable ($781K) and June 2020 recording the lowest profit ($72K).
 Subcategory drill-down highlighted Touring bikes as the most profitable in 2020.
 Variance analysis revealed higher variance in 2018 and no profit in 2020, resulting in a negative variance.</li>
+</ul>
+
+<image src="https://raw.githubusercontent.com/hemabhaskar/portfolio/gh-pages/assets/images/Adventuresales_profit.png" width="480" height="259" frameborder="0" allowfullscreen=""></image>
+
+<ul>
   <li>Sales Analysis
 Confirmed consistent year-over-year growth in bike sales.
 Highlighted a drop in bike sales in February and November 2019 compared to the previous financial year.
 Annual sales for bikes exhibited a continuous upward trend, and the subcategory analysis indicated a 99% increase in new bike sales.</li>
+</ul>
+
+<image src="https://raw.githubusercontent.com/hemabhaskar/portfolio/gh-pages/assets/images/Adventuresales_Order.png" width="480" height="259" frameborder="0" allowfullscreen=""></image>
+
+<ul>
   <li>Order Analysis
 Revealed high order volumes in February, July, and November.
 Introduced a new subcategory, Touring bikes, in FY2020, contributing positively to order volume and count.</li>
 </ul>
+<image src="https://raw.githubusercontent.com/hemabhaskar/portfolio/gh-pages/assets/images/Adventuresales_Order.png" width="480" height="259" frameborder="0" allowfullscreen=""></image>
 
 <h3 id="key-takeaways-and-inference">Key Takeaways and Inference</h3>
 <p>The positive hypothesis that the bikes category significantly contributes to profit and sales growth is supported by the analysis.
@@ -248,4 +306,4 @@ May 2020 recorded the highest profit, with Touring bikes emerging as a key contr
 Bike sales consistently increased year-over-year, with the introduction of new bikes further boosting performance.
 Strategic insights derived from order analysis, emphasizing peak order months and the impact of introducing new subcategories.</p>
 <h3 id="next-steps">Next Steps:</h3>
-<p>Highlight the strategic implications of these findings, propose actionable recommendations, and demonstrate your ability to turn data insights into business decisions. Consider presenting the information through interactive dashboards or visuals to enhance the portfolio’s visual appeal.</p>]]></content><author><name></name></author><category term="how to" /><category term="setup" /><category term="theme" /><summary type="html"><![CDATA[Conducted an in-depth analysis of Adventure Works sales data to derive meaningful insights and identify trends. The project involved hypothesis testing, profit analysis, sales analysis, and order analysis to provide a comprehensive understanding of the company's performance.]]></summary></entry></feed>
+<p>Highlight the strategic implications of these findings, propose actionable recommendations, and demonstrate your ability to turn data insights into business decisions.</p>]]></content><author><name></name></author><category term="how to" /><category term="setup" /><category term="theme" /><summary type="html"><![CDATA[Conducted an in-depth analysis of Adventure Works sales data to derive meaningful insights and identify trends. The project involved hypothesis testing, profit analysis, sales analysis, and order analysis to provide a comprehensive understanding of the company's performance.]]></summary></entry></feed>
