@@ -38,6 +38,20 @@ Adaptable IT professional with over 2 years of experience in banking, dedicated 
 - **Technical Skills:** MS Office, Excel, MS PowerPoint, VBA, Microsoft Access
 - **Soft Skills:** Problem-solving, Communication skills, Data Analysis, Team player
 
+# 🎓 Education
+
+- **Diploma in Data Analytics**, Toronto School of Management, Toronto  
+  *Sep 2023 – Present*
+  
+- **Diploma in Early Childhood Education**, Canadian Montessori Teacher Training Institute, Mississauga  
+  *Sep 2020 – Jun 2021*
+  
+- **Bachelor of Science in Physics**, Stella Maris College, India  
+  *Jun 2003 – May 2006*
+
+# 🏆 Certification
+- **Tableau Desktop Specialist**
+
 # 🎨 Others
 
 In my spare time, I enjoy exploring new technologies and contributing to open-source projects. I'm passionate about continuous learning and keeping up with industry trends. I believe in the power of collaboration and enjoy working in dynamic environments where creativity and innovation thrive.
