@@ -1,7 +1,7 @@
 ---
 title: Toronto Crime Trends - Tableau
 layout: post
-post-image: /assets/images/tcr_geo_dist.png
+post-image: https://raw.githubusercontent.com/hemabhaskar/portfolio/gh-pages/assets/images/tcr_geo_dist.png
 description: The Major Crime Indicators (MCI) that are reported to the Toronto Police Service are analyzed and visualized as part of this project. Effective law enforcement, policymaking, and community engagement depend on an understanding of crime trends. Through the use of data visualization techniques, problems regarding the spatial and temporal distribution of crime in Toronto can be addressed, providing insights into its dynamics.Revealing the story behind crime rate indicators, take a trip through the graphics. Experience the rise and fall of criminal activity from the busy streets of cities to the quiet suburbs, and investigate the fundamental forces influencing the safety and security of our neighborhoods.
 
 tags:
